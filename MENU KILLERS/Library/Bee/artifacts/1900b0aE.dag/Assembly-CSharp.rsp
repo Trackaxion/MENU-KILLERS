@@ -389,7 +389,10 @@
 -analyzer:"D:/Program Files/Unity Hub/Editor/2022.3.62f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Program Files/Unity Hub/Editor/2022.3.62f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Input/InputActions.cs"
+"Assets/Scripts/Enemies/DamagePlayer.cs"
+"Assets/Scripts/Player/PlayerHealthManager.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
+"Assets/Scripts/Test/DamageTester.cs"
 -langversion:9.0
 /deterministic
 /optimize+
