@@ -257,6 +257,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
+  dashSpeed: 10
+  maxDashTimer: 0.4
+  maxDashCooldownTimer: 0.5
+  isDashing: 0
+  dashCooldown: 0
+  ableToDash: 0
+  dashAction:
+    m_Name: Dash
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 113be2f9-7225-4b74-a0ee-fea93fd919d0
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!4 &100699925
 Transform:
   m_ObjectHideFlags: 0
