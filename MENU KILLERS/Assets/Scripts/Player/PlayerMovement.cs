@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private float dashTimer;
     public float maxDashCooldownTimer;
     private float dashCooldownTimer;
+    public float controllerAimDeadzone = 0.1f;
 
     [Header("Bools")]
     public bool isDashing;
@@ -24,10 +25,33 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Input")]
     public InputAction dashAction;
+    public InputAction aimAction;
 
     Vector2 moveInput = Vector2.zero;
-    private Vector3 dashDirection;
+    Vector2 smoothMoveInput;
+    Vector2 moveInputSmoothVelocity;
+    Vector2 mousePosition;
+    Vector2 aimInput = Vector2.zero;
 
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        playerInput = GetComponent<PlayerInput>();
+        dashAction = playerInput.actions.FindAction("Dash");
+        aimAction = playerInput.actions.FindAction("Aim");
+    }
+
+    void OnEnable()
+    {
+        InputSystem.onDeviceChange += OnDeviceChange;
+        CheckConnectedDevices();
+    }
+
+    void OnDisable()
+    {
+        InputSystem.onDeviceChange -= OnDeviceChange;
+    }
 
     private void Start()
     {
@@ -36,9 +60,6 @@ public class PlayerMovement : MonoBehaviour
         ableToDash = true;
         dashTimer = maxDashTimer;
         dashCooldownTimer = maxDashCooldownTimer;
-        rb = GetComponent<Rigidbody2D>();
-        playerInput = GetComponent<PlayerInput>();
-        dashAction = playerInput.actions.FindAction("Dash");
     }
 
     private void Update()
@@ -48,21 +69,67 @@ public class PlayerMovement : MonoBehaviour
             Dash();
         }
         DashController();
+        PlayerRotationUpdate();
     }
 
     private void FixedUpdate()
     {
+        CheckConnectedDevices();
         if (!isDashing)
         {
-            rb.velocity = moveInput * moveSpeed;
+            SetPlayerVelocity();
+        }
+    }
+    #region Movement
+    private void OnMove(InputValue inputValue)
+    {
+        moveInput = inputValue.Get<Vector2>();
+    }
+
+    private void SetPlayerVelocity()
+    {
+        smoothMoveInput = Vector2.SmoothDamp(smoothMoveInput, moveInput, ref moveInputSmoothVelocity, 0.1f);
+        rb.velocity = smoothMoveInput * moveSpeed;
+    }
+    #endregion
+    #region Rotation
+    private void OnAim(InputValue inputValue)
+    {
+        aimInput = inputValue.Get<Vector2>();
+    }
+
+    private void PlayerRotationUpdate()
+    {
+        Vector3 screenMousePosition = Input.mousePosition;
+        screenMousePosition.z = 10f;
+        mousePosition = Camera.main.ScreenToWorldPoint(screenMousePosition);
+    }
+
+    private void PlayerRotationController()
+    {
+        Vector2 aimDirection = mousePosition - rb.position;
+        if (aimInput.magnitude >= controllerAimDeadzone)
+        {
+            aimDirection = aimInput;
+        }
+        else
+        {
+            aimDirection = Vector2.zero;
+        }
+        if (aimDirection != Vector2.zero)
+        {
+            float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
+            rb.rotation = aimAngle;
         }
     }
 
-    private void OnMove(InputValue value)
+    private void PlayerRotationKeyboard()
     {
-        moveInput = value.Get<Vector2>();
+        Vector2 aimDirection = mousePosition - rb.position;
+        float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
+        rb.rotation = aimAngle;
     }
-
+    #endregion
     #region Dash
     private void Dash()
     {
@@ -92,6 +159,28 @@ public class PlayerMovement : MonoBehaviour
             dashCooldown = false;
             ableToDash = true;
             dashCooldownTimer = maxDashCooldownTimer;
+        }
+    }
+    #endregion
+    #region Check for Keyboard/Controller
+    private void OnDeviceChange(InputDevice device, InputDeviceChange change)
+    {
+        if (change == InputDeviceChange.Reconnected || change == InputDeviceChange.Disconnected)
+        {
+            CheckConnectedDevices();
+        }
+    }
+
+    private void CheckConnectedDevices()
+    {
+        bool gamepadConnected = Gamepad.current != null;
+        if (gamepadConnected)
+        {
+            PlayerRotationController();
+        }
+        else
+        {
+            PlayerRotationKeyboard();
         }
     }
     #endregion
