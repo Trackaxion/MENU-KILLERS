@@ -20,5 +20,5 @@ MonoBehaviour:
   m_Values:
   - '{"m_FixedPaneDimension":202.0}'
   - '{"m_FixedPaneDimension":320.0}'
-  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":0.0,"anchoredItemIndex":0,"anchorOffset":0.0},"m_ExpandedItemIds":[1093408848,-465760528,-724633977,-1819572754,-1698132241,-687095263]}'
+  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":0.0,"anchoredItemIndex":0,"anchorOffset":0.0},"m_ExpandedItemIds":[1093408848,-465760528,-1819572754,-1698132241,-722791360]}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'

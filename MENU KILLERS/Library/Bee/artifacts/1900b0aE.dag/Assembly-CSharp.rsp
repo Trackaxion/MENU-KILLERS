@@ -392,8 +392,10 @@
 "Assets/Scripts/Enemies/DamagePlayer.cs"
 "Assets/Scripts/Player/PlayerHealthManager.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
+"Assets/Scripts/Player/PlayerShoot.cs"
 "Assets/Scripts/Test/DamageTester.cs"
 "Assets/Scripts/UI/PlayerHealthBar.cs"
+"Assets/Scripts/Weapons/Bullet.cs"
 -langversion:9.0
 /deterministic
 /optimize+
