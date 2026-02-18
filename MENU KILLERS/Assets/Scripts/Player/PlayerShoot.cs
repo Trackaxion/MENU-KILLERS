@@ -23,6 +23,14 @@ public class PlayerShoot : MonoBehaviour
                 lastFireTime = Time.time;
             }
         }
+        if (Input.GetMouseButtonDown(0))
+        {
+            fireContinuously = true;
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            fireContinuously = false;
+        }
     }
 
     private void FireBullet()
