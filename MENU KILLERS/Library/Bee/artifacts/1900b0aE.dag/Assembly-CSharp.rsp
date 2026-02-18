@@ -393,6 +393,7 @@
 "Assets/Scripts/Player/PlayerHealthManager.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/Scripts/Test/DamageTester.cs"
+"Assets/Scripts/UI/PlayerHealthBar.cs"
 -langversion:9.0
 /deterministic
 /optimize+

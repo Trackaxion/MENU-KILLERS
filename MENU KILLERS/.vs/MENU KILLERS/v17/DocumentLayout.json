@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\menu-killers\\menu killers\\assets\\scripts\\enemies\\damageplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\damageplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\menu-killers\\menu killers\\assets\\scripts\\test\\damagetester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test\\damagetester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\assets\\scripts\\player\\playerhealthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\menu-killers\\menu killers\\assets\\scripts\\player\\playerhealthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerhealthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\assets\\scripts\\ui\\playerhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\playerhealthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\assets\\scripts\\enemies\\damageplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\damageplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\assets\\scripts\\test\\damagetester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test\\damagetester.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "PlayerHealthBar.cs",
+              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\UI\\PlayerHealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PlayerHealthBar.cs",
+              "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\UI\\PlayerHealthBar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\PlayerHealthBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T23:43:58.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DamagePlayer.cs",
               "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Enemies\\DamagePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\DamagePlayer.cs",
@@ -38,12 +54,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\DamagePlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T23:03:40.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T23:03:40.351Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DamageTester.cs",
               "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Test\\DamageTester.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Test\\DamageTester.cs",
@@ -51,30 +66,30 @@
               "RelativeToolTip": "Assets\\Scripts\\Test\\DamageTester.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T22:56:10.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-17T22:56:10.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PlayerHealthManager.cs",
               "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Player\\PlayerHealthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealthManager.cs",
               "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Player\\PlayerHealthManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealthManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-17T22:52:07.816Z"
+              "WhenOpened": "2026-02-17T22:52:07.816Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwC0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T05:56:24.338Z"
             }
