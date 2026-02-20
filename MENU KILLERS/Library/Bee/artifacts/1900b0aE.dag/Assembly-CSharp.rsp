@@ -395,6 +395,7 @@
 "Assets/Scripts/Player/PlayerShoot.cs"
 "Assets/Scripts/Test/DamageTester.cs"
 "Assets/Scripts/UI/PlayerHealthBar.cs"
+"Assets/Scripts/UI/StartMenu.cs"
 "Assets/Scripts/Weapons/Bullet.cs"
 -langversion:9.0
 /deterministic

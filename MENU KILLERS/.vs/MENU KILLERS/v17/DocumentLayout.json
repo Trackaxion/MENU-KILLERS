@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\menu-killers\\menu killers\\assets\\scripts\\ui\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\menu-killers\\menu killers\\assets\\scripts\\player\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StartMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\UI\\StartMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\StartMenu.cs",
+              "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\UI\\StartMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\StartMenu.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwCIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T21:30:03.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerShoot.cs",
               "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Player\\PlayerShoot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerShoot.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Weapons\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\Bullet.cs",
@@ -67,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerHealthBar.cs",
               "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\UI\\PlayerHealthBar.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PlayerHealthBar.cs",
@@ -79,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DamagePlayer.cs",
               "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Enemies\\DamagePlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\DamagePlayer.cs",
@@ -91,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "DamageTester.cs",
               "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Test\\DamageTester.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Test\\DamageTester.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlayerHealthManager.cs",
               "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Player\\PlayerHealthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealthManager.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
