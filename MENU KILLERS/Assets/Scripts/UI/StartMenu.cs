@@ -6,13 +6,15 @@ using UnityEngine.SceneManagement;
 public class StartMenu : MonoBehaviour
 {
     public GameObject titleMenu;
+    public GameObject loadMenu;
     public GameObject settingsMenu;
     public GameObject controlsMenu;
     public GameObject audioMenu;
     public GameObject videoMenu;
     public void LoadGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        titleMenu.SetActive(false);
+        loadMenu.SetActive(true);
     }
 
     public void NewGame()
@@ -47,6 +49,12 @@ public class StartMenu : MonoBehaviour
     {
         settingsMenu.SetActive(false);
         videoMenu.SetActive(true);
+    }
+
+    public void LoadBack()
+    {
+        loadMenu.SetActive(false);
+        titleMenu.SetActive(true);
     }
 
     public void SettingsBack()

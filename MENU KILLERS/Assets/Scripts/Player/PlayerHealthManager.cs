@@ -17,7 +17,7 @@ public class PlayerHealthManager : MonoBehaviour
         playerHealth = maxPlayerHealth;
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(int damage)
     {
         playerHealth = Mathf.Clamp(playerHealth - damage, 0, maxPlayerHealth);
         if (playerHealth > 0)

@@ -8,7 +8,7 @@ public class DamageTester : MonoBehaviour
     public PlayerHealthManager playerHealth;
     private PlayerInput playerInput;
     public InputAction damageAction;
-    public float damageAmount;
+    public int damageAmount;
 
     void Start()
     {

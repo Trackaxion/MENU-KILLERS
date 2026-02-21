@@ -5,8 +5,8 @@ using UnityEngine;
 public class DamagePlayer : MonoBehaviour
 {
     public GameObject player;
-    private float damage;
-    public float testEnemyDamage;
+    private int damage;
+    public int testEnemyDamage;
     public PlayerHealthManager playerHealth;
 
     private void Start()
