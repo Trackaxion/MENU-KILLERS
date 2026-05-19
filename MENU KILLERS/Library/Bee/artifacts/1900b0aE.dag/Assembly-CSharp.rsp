@@ -389,7 +389,10 @@
 -analyzer:"D:/Program Files/Unity Hub/Editor/2022.3.62f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Program Files/Unity Hub/Editor/2022.3.62f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Input/InputActions.cs"
-"Assets/Scripts/Enemies/DamagePlayer.cs"
+"Assets/Scripts/Enemies/EnemyBullet.cs"
+"Assets/Scripts/Enemies/EnemyBulletPoolManager.cs"
+"Assets/Scripts/Enemies/EnemyShoot.cs"
+"Assets/Scripts/Player/PlayerCollisionManager.cs"
 "Assets/Scripts/Player/PlayerHealthManager.cs"
 "Assets/Scripts/Player/PlayerMovement.cs"
 "Assets/Scripts/Player/PlayerShoot.cs"
@@ -397,6 +400,7 @@
 "Assets/Scripts/UI/PlayerHealthBar.cs"
 "Assets/Scripts/UI/StartMenu.cs"
 "Assets/Scripts/Weapons/Bullet.cs"
+"Assets/Scripts/Weapons/BulletPoolManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

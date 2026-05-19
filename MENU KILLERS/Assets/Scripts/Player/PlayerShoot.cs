@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Pool;
 
 public class PlayerShoot : MonoBehaviour
 {
-    public GameObject bulletPrefab;
+    //public GameObject bulletPrefab;
+    public BulletPoolManager bulletPool;
     public Transform aim;
     public float bulletSpeed;
     public float timeBetweenShots;
@@ -35,9 +37,22 @@ public class PlayerShoot : MonoBehaviour
 
     private void FireBullet()
     {
-        GameObject bullet = Instantiate(bulletPrefab, aim.position, transform.rotation);
+        GameObject bullet = bulletPool.GetObject();
+        bullet.transform.position = transform.position;
+        bullet.transform.rotation = transform.rotation;
+
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.velocity = bulletSpeed * transform.up;
+
+        if (rb != null)
+        {
+            rb.velocity = bulletSpeed * transform.up;
+        }
+    }
+
+    IEnumerator DeactivateBullet(GameObject bullet)
+    {
+        yield return new WaitForSeconds(2f);
+        bulletPool.ReturnObject(bullet);
     }
 
     private void OnFire(InputValue inputValue)

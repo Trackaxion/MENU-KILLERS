@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("References")]
     private Rigidbody2D rb;
     private PlayerInput playerInput;
+    PlayerCollisionManager collisionManager;
 
     [Header("Settings")]
     public float moveSpeed;
@@ -38,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         playerInput = GetComponent<PlayerInput>();
+        collisionManager = GetComponent<PlayerCollisionManager>();
         dashAction = playerInput.actions.FindAction("Dash");
         aimAction = playerInput.actions.FindAction("Aim");
     }
@@ -136,6 +138,7 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = moveInput * dashSpeed;
         isDashing = true;
         ableToDash = false;
+        collisionManager.invulnerable = true;
     }
 
     private void DashController()
@@ -148,6 +151,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isDashing = false;
             dashCooldown = true;
+            collisionManager.invulnerable = false;
             dashTimer = maxDashTimer;
         }
         if (dashCooldown)
