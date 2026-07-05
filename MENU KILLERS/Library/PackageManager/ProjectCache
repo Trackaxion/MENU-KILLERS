@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639169767833440321
-    m_Hash: 435494197
+      ticks: 639188696431178028
+    m_Hash: 2868126991
   m_LockFileStatus:
     m_FilePath: C:/Users/Donovan/Desktop/MENU-KILLERS/MENU KILLERS/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639169767833475438
-    m_Hash: 4030434015
+      ticks: 639188696431187796
+    m_Hash: 544570944
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -5826,6 +5826,7 @@ m_ResolvedPackages:
     - 8.0.2
     - 8.0.3
     - 8.88.0-exp.1
+    - 8.88.0-exp.2
     - 9.0.0
     compatible:
     - 3.1.3
