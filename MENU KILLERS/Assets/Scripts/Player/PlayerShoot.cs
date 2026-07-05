@@ -6,36 +6,24 @@ using UnityEngine.Pool;
 
 public class PlayerShoot : MonoBehaviour
 {
-    //public GameObject bulletPrefab;
     public BulletPoolManager bulletPool;
     public Transform aim;
     public float bulletSpeed;
-    public float timeBetweenShots;
-    private float lastFireTime;
-    public bool fireContinuously;
+    public float burstDelay;
 
-    void Update()
+    [Header("Flags")]
+    public bool canBasicShot;
+    public bool canShotgunShot;
+    public bool canBurstShot;
+
+    private void Start()
     {
-        if (fireContinuously)
-        {
-            float timeSinceLastFire = Time.time - lastFireTime;
-            if (timeSinceLastFire >= timeBetweenShots)
-            {
-                FireBullet();
-                lastFireTime = Time.time;
-            }
-        }
-        if (Input.GetMouseButtonDown(0))
-        {
-            fireContinuously = true;
-        }
-        if (Input.GetMouseButtonUp(0))
-        {
-            fireContinuously = false;
-        }
+        canBasicShot = true;
+        canShotgunShot = true;
+        canBurstShot = true;
     }
 
-    private void FireBullet()
+    public void BasicBullets()
     {
         GameObject bullet = bulletPool.GetObject();
         bullet.transform.position = transform.position;
@@ -49,14 +37,75 @@ public class PlayerShoot : MonoBehaviour
         }
     }
 
+    public void ShotgunBullets()
+    {
+        for (int i = 0; i <= 2; i++)
+        {
+            GameObject bullet = bulletPool.GetObject();
+            Vector2 direction = (Vector2)(transform.up);
+            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+
+            switch (i)
+            {
+                case 0:
+                    bullet.transform.position = transform.position;
+                    bullet.transform.rotation = transform.rotation;
+                    if (rb != null)
+                    {
+                        rb.velocity = direction.normalized * bulletSpeed;
+                    }
+                    break;
+                case 1:
+                    Quaternion direction2Rotation = Quaternion.Euler(0, 0, 15);
+                    Vector2 bullet2Rotation = direction2Rotation * direction;
+                    bullet.transform.position = transform.position;
+                    bullet.transform.rotation = transform.rotation;
+                    if (rb != null)
+                    {
+                        rb.velocity = bullet2Rotation.normalized * bulletSpeed;
+                    }
+                    break;
+                case 2:
+                    Quaternion direction3Rotation = Quaternion.Euler(0, 0, -15);
+                    Vector2 bullet3Rotation = direction3Rotation * direction;
+                    bullet.transform.position = transform.position;
+                    bullet.transform.rotation = transform.rotation;
+                    if (rb != null)
+                    {
+                        rb.velocity = bullet3Rotation.normalized * bulletSpeed;
+                    }
+                    break;
+            }
+        }
+    }
+
+    public void BurstBullets()
+    {
+        StartCoroutine(ShootBurstRoutine());
+    }
+
+    IEnumerator ShootBurstRoutine()
+    {
+        for (int i = 0; i <= 2; i++)
+        {
+            GameObject bullet = bulletPool.GetObject();
+            bullet.transform.position = transform.position;
+            bullet.transform.rotation = transform.rotation;
+
+            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+
+            if (rb != null)
+            {
+                rb.velocity = bulletSpeed * transform.up;
+            }
+
+            yield return new WaitForSeconds(burstDelay);
+        }
+    }
+
     IEnumerator DeactivateBullet(GameObject bullet)
     {
         yield return new WaitForSeconds(2f);
         bulletPool.ReturnObject(bullet);
-    }
-
-    private void OnFire(InputValue inputValue)
-    {
-        fireContinuously = inputValue.isPressed;
     }
 }

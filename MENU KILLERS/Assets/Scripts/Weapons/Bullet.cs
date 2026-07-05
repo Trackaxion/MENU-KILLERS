@@ -35,7 +35,7 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("TestEnemy"))
+        if (collision.tag == "TestEnemy")
         {
             Destroy(collision.gameObject);
             ReturnToPool(this.gameObject);

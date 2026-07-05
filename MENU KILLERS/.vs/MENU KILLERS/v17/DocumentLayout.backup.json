@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\assets\\scripts\\enemies\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\menu-killers\\menu killers\\assets\\scripts\\ui\\bonuspowermover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\bonuspowermover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\menu-killers\\menu killers\\assets\\scripts\\player\\playercollisionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercollisionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\assets\\scripts\\ui\\actionmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\actionmenumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\assets\\scripts\\weapons\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapons\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\assets\\scripts\\enemies\\enemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\assets\\scripts\\enemies\\enemybulletpoolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemybulletpoolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\assets\\scripts\\player\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\assets\\scripts\\weapons\\bulletpoolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapons\\bulletpoolmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\assets\\scripts\\ui\\scrollattacktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7587C8A-FB95-8038-2EB2-556EF6691FD1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\scrollattacktype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerCollisionManager.cs",
-              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Player\\PlayerCollisionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCollisionManager.cs",
-              "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Player\\PlayerCollisionManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCollisionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BonusPowerMover.cs",
+              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\UI\\BonusPowerMover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\BonusPowerMover.cs",
+              "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\UI\\BonusPowerMover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\BonusPowerMover.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIAwwBQAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T02:32:00.034Z",
+              "WhenOpened": "2026-07-05T16:56:08.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Bullet.cs",
-              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Weapons\\Bullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\Bullet.cs",
-              "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Weapons\\Bullet.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Weapons\\Bullet.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAYAAAAEAAAAAAAAAA==",
+              "Title": "ScrollAttackType.cs",
+              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\UI\\ScrollAttackType.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ScrollAttackType.cs",
+              "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\UI\\ScrollAttackType.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\ScrollAttackType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T23:27:27.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T15:43:02.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnemyBullet.cs",
-              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Enemies\\EnemyBullet.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemyBullet.cs",
-              "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Enemies\\EnemyBullet.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\EnemyBullet.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCUAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ActionMenuManager.cs",
+              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\UI\\ActionMenuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ActionMenuManager.cs",
+              "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\UI\\ActionMenuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\ActionMenuManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T02:03:27.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnemyBulletPoolManager.cs",
-              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Enemies\\EnemyBulletPoolManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemyBulletPoolManager.cs",
-              "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Enemies\\EnemyBulletPoolManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\EnemyBulletPoolManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T02:00:18.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EnemyShoot.cs",
-              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Enemies\\EnemyShoot.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemyShoot.cs",
-              "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Enemies\\EnemyShoot.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\EnemyShoot.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-19T01:59:55.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BulletPoolManager.cs",
-              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Weapons\\BulletPoolManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Weapons\\BulletPoolManager.cs",
-              "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Weapons\\BulletPoolManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Weapons\\BulletPoolManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T23:16:38.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerShoot.cs",
-              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Player\\PlayerShoot.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerShoot.cs",
-              "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Player\\PlayerShoot.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerShoot.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwCsAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T23:14:30.164Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\Donovan\\Desktop\\MENU-KILLERS\\MENU KILLERS\\Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAmwJkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T23:46:29.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T19:12:14.959Z"
             }
           ]
         }

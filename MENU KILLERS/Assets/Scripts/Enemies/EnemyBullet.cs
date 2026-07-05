@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyBullet : MonoBehaviour
 {
+    PlayerHealthManager playerHealth;
     PlayerCollisionManager collisionManager;
     EnemyBulletPoolManager bulletPool;
     private float bulletTimer;
@@ -12,6 +13,7 @@ public class EnemyBullet : MonoBehaviour
     {
         collisionManager = FindAnyObjectByType<PlayerCollisionManager>();
         bulletPool = FindAnyObjectByType<EnemyBulletPoolManager>();
+        playerHealth = FindAnyObjectByType<PlayerHealthManager>();
     }
 
     private void OnEnable()
@@ -35,7 +37,7 @@ public class EnemyBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player" && collisionManager.invulnerable == false)
+        if (collision.tag == "Player" && collisionManager.invulnerable == false && playerHealth.damaged == false)
         {
             ReturnToPool(this.gameObject);
         }

@@ -27,6 +27,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("Input")]
     public InputAction dashAction;
     public InputAction aimAction;
+    public InputAction upDPad;
+    public InputAction downDPad;
 
     Vector2 moveInput = Vector2.zero;
     Vector2 smoothMoveInput;
@@ -42,6 +44,8 @@ public class PlayerMovement : MonoBehaviour
         collisionManager = GetComponent<PlayerCollisionManager>();
         dashAction = playerInput.actions.FindAction("Dash");
         aimAction = playerInput.actions.FindAction("Aim");
+        upDPad = playerInput.actions.FindAction("MenuUp");
+        downDPad = playerInput.actions.FindAction("MenuDown");
     }
 
     void OnEnable()

@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 2668488821012605095}
   - component: {fileID: 3039821083807809033}
   - component: {fileID: 8067790486625049210}
+  - component: {fileID: 3810759598690225863}
   - component: {fileID: 801572726516354681}
+  - component: {fileID: 4449576143905415044}
   m_Layer: 0
   m_Name: TestEnemy
   m_TagString: TestEnemy
@@ -121,6 +123,28 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &3810759598690225863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5279486622014882070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28e8b6f9b02ebe44881fcd7ede62b797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 2
+  startWaitTime: 1
+  wayPoint: {fileID: 0}
+  minX: -9
+  maxX: 9
+  minY: -4
+  maxY: 6
+  stoppingDistance: 10
+  retreatDistance: 5
+  player: {fileID: 0}
 --- !u!114 &801572726516354681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,5 +160,21 @@ MonoBehaviour:
   player: {fileID: 0}
   firePoint: {fileID: 2668488821012605095}
   bulletSpeed: 4
-  fireRate: 1
-  nextFireTime: 0
+  fireRate: 0.5
+--- !u!114 &4449576143905415044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5279486622014882070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0903b4de546534b4586d01050136a7ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionRadius: 7
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  hasDetected: 0

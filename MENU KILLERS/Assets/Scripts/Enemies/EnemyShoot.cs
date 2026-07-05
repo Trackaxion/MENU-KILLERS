@@ -4,25 +4,30 @@ using UnityEngine;
 
 public class EnemyShoot : MonoBehaviour
 {
+    Detection detection;
     EnemyBulletPoolManager bulletPool;
     public Transform player;
     public Transform firePoint;
 
     public float bulletSpeed;
     public float fireRate;
-    public float nextFireTime;
+    private float nextFireTime;
 
     private void Awake()
     {
         bulletPool = FindAnyObjectByType<EnemyBulletPoolManager>();
+        detection = GetComponent<Detection>();
     }
 
     private void Update()
     {
-        if (Time.time >= nextFireTime)
+        if (detection.hasDetected)
         {
-            FireBullet();
-            nextFireTime = Time.time + 1f / fireRate;
+            if (Time.time >= nextFireTime)
+            {
+                FireBullet();
+                nextFireTime = Time.time + 1f / fireRate;
+            }
         }
     }
 
@@ -32,10 +37,7 @@ public class EnemyShoot : MonoBehaviour
         GameObject bullet = bulletPool.GetObject();
         bullet.transform.position = transform.position;
         bullet.transform.rotation = transform.rotation;
-
-        //GameObject bullet = Instantiate(bulletPrefab, aim.position, transform.rotation);
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        //rb.velocity = bulletSpeed * transform.up;
 
         if (rb != null)
         {

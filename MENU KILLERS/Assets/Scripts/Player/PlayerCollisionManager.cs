@@ -19,7 +19,7 @@ public class PlayerCollisionManager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "TestEnemy" && invulnerable == false)
+        if (collision.gameObject.tag == "TestEnemy" && invulnerable == false && playerHealth.damaged == false)
         {
             playerHealth.TakeDamage(testEnemyDamage);
         }
@@ -27,7 +27,7 @@ public class PlayerCollisionManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "TestBullet" && invulnerable == false)
+        if (collision.tag == "TestBullet" && invulnerable == false && playerHealth.damaged == false)
         {
             playerHealth.TakeDamage(testEnemyBulletDamage);
         }
